@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        body{
+            background-color: rgb(28, 30, 31);
+        }
+        .counter-display {
+            color: rgb(19, 199, 85);
+            font-size: 40px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            height: -100px;
+            display: flex;
+        }
+        .counter-plus {
+            color: red;
+            color: rgb(255, 0, 0);
+            font-size: 30px;
+            margin-right: 20px;
+            width: 40px;
+            height: 40px;
+            border: 2px solid red;
+            display: inline;
+            background-color: rgb(0, 0, 0);
+        }
+        .counter-minus {
+            color: rgb(255, 0, 0);
+            font-size: 30px;
+            margin-bottom:auto;
+            width: 40px;
+            height: 40px;
+            border: 2px solid red;
+            display: inline;
+            background-color: rgb(0, 0, 0);
+            
+        }
+        @font-face {
+            font-family: Tapestry-regular;
+            src: url("./Fonts/Tapestry-Regular.ttf");
+        }
+        .Name {
+            color: rgb(0, 0, 0);
+            font-family:"Tapestry-Regular";
+            border-style: solid;
+            border-width: 5px;
+            text-align:center;
+            padding: 20px 20px 20px 20px;
+            background-color: rgb(233, 45, 45);
+            font-size: 200px;
+            margin-top: 2px;
+            margin-bottom:40px;
+        }
+        .div-button{
+            display: flex;
+            justify-content: center;
+        }
+        .div-display{
+            display: flex;
+            justify-content: center;
+        }
+        .div-config{}
+    </style>
+     <div class="Name">XozmenCounter</div>
+     <div class="div-display"> 
+         <h1 class="counter-display">(..)</h1>
+    </div>
+    <div class="div-button">
+        <div class="div-config">
+            <button class="counter-plus">+</button>
+            <button class="counter-minus">-</button>
+        </div>
+
+    </div>
+    <script src="Script.js"></script>
+    
+</body>
+</html>
